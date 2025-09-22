@@ -56,3 +56,35 @@ if(NaN){
 else{
     console.log(false)
 }
+if(""){
+    console.log(true)
+}else{
+    console.log(false)
+}
+// empty list is falsey value 
+if("0"){
+    console.log(true)
+}else{
+    console.log(false)
+}
+
+
+// non primitive data type 
+//Array 
+const array = ["Harry","potter",105]
+console.log(array[2])
+//length of the array
+console.log(array.length)
+//push method
+console.log(array.push(5))
+console.log(array)
+//pop() method
+console.log(array.pop())
+// slice() function
+let array1 = ["potter","harry",10,20,30,40]
+let array2 = array1.slice(-3,-2)
+console.log(array2)
+// splice() function
+let array3 = array1.splice(1,3)
+console.log(array3)
+console.log(array1)
